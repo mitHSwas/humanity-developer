@@ -1,0 +1,170 @@
+body {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-div {
+    text-align: center;
+    padding: 10%;
+}
+
+.header-div h1 {
+    font-size: 50px;
+    color: white
+}
+
+.header-div p {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.button {
+    padding: 15px 25px;
+    background-color: #f36046;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header {
+    background-image: url("./images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.donate-amount {
+    text-align: center;
+}
+
+.donate-taka {
+    margin: 25px 0;
+}
+
+.donate-taka span {
+    padding: 15px 20px;
+    margin: 30px 10px;
+    background-color: #f7f5f5;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.selected-amount {
+    border: 1px solid red;
+    color: red;
+    background-color: #eee0e0 !important
+}
+
+.input-amount {
+    width: 25%;
+    border: .5px dashed gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.specific-plan {
+    text-align: center;
+    background-color: #6b9999;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.basic-needs {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.food {
+    background-color: #f0dfdc;
+}
+
+.shelter {
+    background-color: #e9c1e4;
+}
+
+.education {
+    background-color: #e8ebbe;
+}
+
+.donate-area {
+    display: flex;
+}
+
+.donate-description {
+    width: 50%;
+    margin-left: 5%;
+    padding: 0 5%;
+}
+
+.donate-img {
+    width: 50%;
+}
+
+
+.donate-img img {
+    width: 80%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.second-img {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.sec-des {
+    margin-right: 5%;
+    margin-left: 0;
+    padding: 2% 5% 2% 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.connected-section {
+    text-align: center;
+}
+
+.connected-mail {
+    width: 50%;
+    padding: 3%;
+    background-color: gainsboro;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.connected {
+    width: 50%;
+    margin: auto;
+    padding: 5%;
+    background-color: #edf7b5;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 1%;
+}
